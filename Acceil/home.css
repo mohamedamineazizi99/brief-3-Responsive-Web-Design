@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    min-width: 320px;
+}
+           /* start header class */
+.mainheader{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    width: 190px;
+}
+.menu{
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#btt{
+    display: none;
+}
+#menu1{
+    float: left;
+}
+.img2{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/img2.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainheader1{
+    height: 90px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(img0.png); */
+}
+.mainheader2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* position: absolute; */
+    /* top: 450px; */
+    color: white;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.p1{
+    color: white;
+    padding: 15px 40px;
+    margin-right: 15px;
+    background-color: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+.p2{
+    color: white;
+    padding: 15px 40px;
+    background-color: #038dfe;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 40px 5px #038dfe;
+    transition-duration: 500ms;
+    
+}
+               /* fin header class */
+
+               /* start aside slass */  
+.aside{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+} 
+.header1_mr {
+    margin-top: 135px;
+}
+.aside_mt {
+    margin-top: 100px;
+}
+.flex-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: 2Blue; */
+}
+.flex-container > div {
+    /* background-color: #f1f1f1; */
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    padding: 40px ;
+    /* font-size: 20px; */
+}
+.premier > img{
+    width: 50px;
+}
+.deuxieme{
+    font-size: 25px;
+}
+.troisieme{
+    font-size: 18;
+}
+                /* Start cotent what ever */
+.cqycd{
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.cqycd0{
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.cqycd1{
+    width: 50%;
+    background-image: url(img/img3.png);
+    background-size: cover;
+    /* background-color: brown; */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cqycd2{
+    width: 50%;
+    /* background-image: url(img4.png); */
+    background-color: #038dfe;
+    height: 500px;
+}
+.cqycd2 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500px;
+    margin: 40px;
+}
+.cqycd2 h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 40px;
+}
+.cqycd2 h3{
+    color: white;
+    /* width: 80%; */
+    margin: 50px 60px;
+    font-size: 20px;
+    font-weight: 200;
+}
+             /* End cotent what ever  */
+
+             /* start siiide class */
+
+.header1_register_mt{
+    margin-top: 100px;
+}
+.aside h1{
+    /* width: 80%; */
+    text-align: center;
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+.aside h2{
+    /* width: 80%; */
+    /* display: flex; */
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.side {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+  
+.side > div {
+    background-color: #038dfe;
+    width: 50%;
+    height: 550px;
+    margin: 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.siide {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(img4.png); */
+    background-color: #038dfe;
+    background-size: cover;
+    padding: 20px 00px;
+}
+.siide > div{
+    padding: 20px 50px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+.siide > div h1 {
+    color: white;
+    font-size: 70px ;
+    font-weight: 351;
+} 
+.siide > div h2 {
+    color: white;
+    font-size: 25px ;
+    /* font-weight: 351; */
+} 
+.siiide{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-image: url(img/img4.png);
+    background-size: cover;
+    background-position: center;
+}
+.siiide > .asiiide {
+    /* position: absolute; */
+    text-align: center;
+    /* color: #038dfe; */
+    /* top: 40%; */
+    /* left: 40%; */
+} 
+.siiide > .asiiide > h1 {
+    color: #038dfe;
+    font-size: 20px;
+    font-weight: 300;
+}
+.siiide > .asiiide > h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.header{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header1{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.header_1{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    
+}
+
+header ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 4px;
+    transition-duration: 500ms;
+}
+header ul li a:hover {
+    color: #038dfe;
+    transition-duration: 500ms;
+}
+header ul li {
+    list-style: none;
+    display: inline-block;
+}
+.inscris{
+    background: #038dfe ;
+    padding: 10px 45px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 3px #038dfe;
+}
+.inscris:hover{
+    background: white;
+    box-shadow: none;
+}
+
+.titre{
+    width: 80%;
+    color: white;
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainheader5{
+    display: flex;
+}
+.header1 h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    /* padding-top:40px; */
+    /* position: absolute;
+    top: 250px; */
+}
+.header1 h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 40px 0;
+    /* padding-top:40px; */
+    /* position: absolute;
+    top: 330px; */
+}
+
+
+.p2:hover {
+    color: gray;
+    background-color: white;
+    transition-duration: 500ms;
+    box-shadow: none;
+}
+.p1:hover {
+    color: gray;
+    background-color: white;
+    transition-duration: 500ms;
+}
+
+
+
+
+.sponsorise {
+    font-size: 50px;
+    font-weight: 300;
+}
+.itdm{
+    text-decoration: none;
+    padding: 0px 80px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.inscristoi{
+    font-size: 15px;
+    background-color: #038dfe;
+    padding: 13px 230px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 0px 20px 2px rgb(0, 138, 255, 0.7);
+    transition-duration: 500ms;
+}
+.inscristoi:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 3px 20px 2px rgb(0, 0, 0, 0.3);
+}
+
+.menubackground {
+    background-color: aqua;
+    height: 90px;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.siide .siide1{
+    border-right : dashed 1px black ;
+    border-left : dashed 1px black ;
+}
+.mainhesader .chk{
+    visibility: hidden;
+    z-index: -1111;
+}
+
+              /* start footer class */
+.footer{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    background-color: black;
+}
+.footer1{
+    width: 33.33%;
+}
+.footer1 h1 {
+    color: gray;
+    font-size: 15px;
+}
+.footer1 h2{
+    color: #038dfe;
+    font-size: 15px;   
+}
+.footer2{
+    width: 33.33%;
+}
+.footer2 h1{
+    color: gray;
+    font-size: 15px;
+}
+.footer3{
+    width: 33.33%;
+}
+.footer3 h1{
+    color: gray;
+    font-size: 15px;
+}
+.footer3 h2{
+    color: gray;
+    font-size: 15px;
+}
+.rs{
+    height: 20px;
+    padding: 10px 20px;
+}
+/* fin footer class */

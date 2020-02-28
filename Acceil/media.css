@@ -1,0 +1,386 @@
+@media (min-width: 1121px) {
+    #menu1{
+        display: none;
+    }
+    .img10{
+        display: none;
+    }   
+}
+
+@media (max-width: 1120px) {
+    #btt + .menu{
+        display: none;
+    }
+    #btt{
+        display: none;
+    }
+    #btt:checked + .menu{
+        display: block;
+    }
+    .img9{
+        height: 25px;
+    }    
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 450px;
+        background-color: black;
+        left: 0; 
+        top: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        transition: 0.7s;
+    }
+    .menu ul li{
+        padding: 20px;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .chk:checked ~ .menu{
+        right: 0;
+    }
+    .img10{
+        position: absolute;
+        top: 20px;
+        left: 8%;
+        /* width: 100%; */
+    }
+    .header1 h1{
+        font-size: 40px;
+        
+    }
+    .header1 h2{
+        font-size: 20px;
+    }
+    .logo{
+        float: none;
+    }
+    .header{
+        justify-content: center;
+        align-items: center;
+    }
+    .cqycd0{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .cqycd2 h1{
+        color: white;
+        font-size: 40px;
+        font-weight: 500px;
+        margin: 10px 80px;
+    }
+    .cqycd2 h2{
+        color: white;
+        font-size: 21px;
+        font-weight: 400px;
+        margin: 10px 80px;
+    }
+    .cqycd2 h3{
+        color: white;
+        margin: 10px 80px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .siiide {
+        width: 100%;
+    }
+    .siide {
+        width: 100%;
+    }
+    .cqycd1{
+        width: 100%;
+    }
+    .cqycd2{
+        width: 100%;
+    }
+    .p1{
+        font-size: 18px;
+    }
+    .p2{
+        font-size: 18px;
+    }
+    .header1{
+        align-items: center;
+    }
+    .mainheader {
+        height: 70px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .flexbox {
+        flex-direction: column;
+    }
+    .itdm{
+        padding: 25px;
+    }
+}
+@media (max-width: 1144px){
+    .siide{
+        flex-direction: column;
+    }
+    .siide > div {
+        width: none;
+    }
+    .siide .siide1{
+        border: none;
+    }
+    .siide > div h1{
+        font-size: 50px;
+    }
+    .siide > div h2{
+        font-size: 20px;
+    }
+    /* .siide > div{
+        width: 100%;
+    } */
+
+}
+@media (max-width: 899px){
+    .footer1 h1{
+        font-size: 12px;
+    }
+    .footer1 h2{
+        font-size: 12px;
+    }
+    .footer2 h1{
+        font-size: 12px;
+    }
+    .footer3 h1{
+        font-size: 12px;
+    }
+    .rs{
+        height: 15px;
+        padding: 5px 10px;
+    }
+    .siiide {
+        height: 250px;
+    }
+}
+@media (max-width: 860px){
+    .siide{
+        flex-direction: column;
+        border: none;
+    }
+    .siide .siide1{
+        border: none;
+    }
+    .itdm{
+        font-size: 25px;
+    }
+    .inscristoi{
+        font-size: 25px;
+        padding: 13px 120px;
+    }
+    .aside h2 {
+        line-height: 20px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 768px){
+    .siiide > .asiiide{
+        left: 30%;
+    }
+}
+@media (max-width: 738px){
+    .sponsorise {
+        font-size: 30px ;
+    }
+}
+@media (max-width: 680px){
+    .header1 h1{
+        font-size: 25px;
+        font-weight: 600;
+        top: 240px;
+    }
+    .header1 h2{
+        font-size: 12px;
+        font-weight: 600px;
+        padding: 10px 0;
+    }
+    .p1{
+        font-size: 9px;
+        font-weight: 800;
+        padding: 10px 30px;
+    }
+    .p2 {
+        font-size: 9px;
+        font-weight: 600;
+        padding: 10px 30px;
+    }
+    .img2{
+        height: 300px;
+    }
+    .premier > img {
+        width: 30px;
+    }
+    .deuxieme {
+        font-size: 18px;
+    }
+    .troisieme {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 580px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer1{
+        margin: 5px;
+    }
+    .footer2{
+        margin: 5px;
+    }
+    .footer3{
+        margin: 5px;
+    }
+    .siiide > .asiiide{
+        left: 20%;
+    }
+    .inscristoi{
+        font-size: 14px;
+        padding: 13px 111 px;
+    }
+    .cqycd2 h1{
+        margin: 10px 60px;
+        font-size: 30px;
+        font-weight: 600px;
+    }
+    .cqycd2 h2{
+        margin: 10px 60px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .cqycd2 h3{
+        margin: 10px 60px;
+        font-size: 11px;
+        font-weight: 300px;
+    }
+    .rs{
+        padding: 5px 5px;
+    }
+}
+@media (max-width: 480px){
+    .siiide > .asiiide > h1{
+        font-size: 15px;
+    }
+    .siiide > .asiiide > h2{
+        font-size: 36px;
+    }
+    .header1 h1{
+        font-size: 25px;
+        font-weight: 600;
+        top: 240px;
+    }
+    .header1 h2{
+        font-size: 12px;
+        font-weight: 600px;
+    }
+    .p1{
+        font-size: 9px;
+        font-weight: 800;
+        padding: 10px 30px;
+    }
+    .p2 {
+        font-size: 9px;
+        font-weight: 600;
+        padding: 10px 30px;
+    }
+    .mainheader2{
+        top: 390px;
+    }
+    .img2{
+        padding-top: 0px;
+    }
+    .logo {
+        width: 130px;
+    }
+    .img9 {
+        height: 20px;
+    }
+    .siiide{
+        height: 250px;
+    }
+    .siiide > .asiiide {
+        left: 25%;
+        top: 30%;
+    }
+    .siide > div {
+        padding: 10px 0px;
+        margin: 0px;
+    }
+    .siide > div h1{
+        font-size: 35px;
+    }
+    .siide > div h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .header1 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .itdm{
+        padding: 0px 0px;
+    }
+    .aside h1{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .aside h2{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .flex-container > div{
+        line-height: 30px;
+        padding: 0px;
+    }
+    .mainheader {
+        height: 50px;
+    }
+    .sponsorise {
+        font-size: 22px;
+    }
+    .itdm {
+        font-size: 16px;
+        padding: 15px;
+    }
+    .inscristoi {
+        font-size: 14px;
+        padding: 13px 60px;
+    }
+    .footer1 h2 {
+        font-size: 7px;
+    }
+    .rs {
+        padding: 5px 2px;
+    }
+}
+@media (max-width: 390px){
+    .header1 h1 {
+        font-size: 18px;
+        font-weight: 600;
+        top: 240px;
+    }
+    .header1 h2 {
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    .p1 {
+        font-size: 8px;
+        font-weight: 800;
+        padding: 10px 20px;
+    }
+    .p2 {
+        font-size: 8px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+}
